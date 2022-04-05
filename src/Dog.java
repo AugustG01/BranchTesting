@@ -1,16 +1,17 @@
 public class Dog extends Animal {
 
-    Dog(Animal name){
-        super(name);
-    }
-
     Dog(Animal name) {
+        super(name);
+
+
+        @Override
+        public void makeSound () {
+            System.out.println("Voof");
+        }
+
+        @Override
+        public void eat () {
+
+        }
 
     }
-
-    @Override
-    public void makeSound() {
-        super.makeSound();
-        System.out.println("Voof");
-    }
-}
