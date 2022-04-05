@@ -1,6 +1,6 @@
 public class Cat extends Animal{
 
-    Cat(Animal name){
+    Cat(String name){
         super(name);
     }
 
