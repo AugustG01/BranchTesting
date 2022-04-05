@@ -9,4 +9,8 @@ public class Cat extends Animal{
         super.makeSound();
         System.out.println("miav");
     }
+
+    @Override
+    public void mood() {
+    }
 }

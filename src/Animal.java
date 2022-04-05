@@ -13,4 +13,7 @@ public class Animal {
 
     }
 
+    public void mood(){
+
+    }
 }
