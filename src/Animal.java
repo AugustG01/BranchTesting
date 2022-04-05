@@ -1,8 +1,8 @@
 public class Animal {
     private String name;
 
-    public Animal() {
-
+    public Animal(String name) {
+    this.name = name;
     }
 
     public void makeSound(){
@@ -14,6 +14,10 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        new Animal().go();
+        Cat c1 = new Cat();
+        Dog d1 = new Dog();
+
+        c1.makeSound();
+        d1.makeSound();
     }
 }
