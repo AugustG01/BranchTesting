@@ -1,7 +1,11 @@
 public class Dog extends Animal {
 
     Dog(Animal name){
-        super();
+        super(name);
+    }
+
+    Dog(Animal name) {
+
     }
 
     @Override
