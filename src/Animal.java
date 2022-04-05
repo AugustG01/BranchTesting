@@ -1,6 +1,6 @@
 public class Animal {
     private String name;
-
+    public boolean showMood;
     Animal(String name) {
     this.name = name;
     }
