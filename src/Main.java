@@ -12,6 +12,9 @@ public class Main {
         c1.eat();
         d1.eat();
 
+        c1.mood();
+        d1.mood();
+
 
 
     }
