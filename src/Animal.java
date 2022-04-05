@@ -1,29 +1,23 @@
-public abstract class Animal {
+public class Animal {
     private String name;
-    private String foodType;
-    public Animal() {
+
+    public Animal(String name) {
+    this.name = name;
+    }
+
+    public void makeSound(){
 
     }
 
-    public abstract void makeSound();
+    public void eat(){
 
-    public abstract void eat();
-
-
-    public void go(){
-        makeSound();
     }
 
     public static void main(String[] args) {
-        new Animal() {
-            @Override
-            public void makeSound() {
+        Cat c1 = new Cat();
+        Dog d1 = new Dog();
 
-            }
-
-            @Override
-            public void eat() {
-            }
-        }.go();
+        c1.makeSound();
+        d1.makeSound();
     }
 }
