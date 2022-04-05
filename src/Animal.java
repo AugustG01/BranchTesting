@@ -1,9 +1,10 @@
 public class Animal {
     private String name;
 
-    Animal(Animal name){
+    public Animal() {
 
     }
+
     public void makeSound(){
 
     }
